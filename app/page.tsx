@@ -20,6 +20,7 @@ import {
   ArrowUp,
    XCircle,
 } from "lucide-react"
+import { FaInstagram, FaFacebookF, FaLinkedinIn, FaImdb, FaEnvelope } from "react-icons/fa"
 
 
 import { Button } from "@/components/ui/button"
@@ -116,14 +117,7 @@ const [modalImage, setModalImage] = useState<string | null>(null)
 
   return (
     <main className="min-h-screen bg-white text-gray-900 font-sans overflow-x-hidden">
-      {/* Progress Bar */}
-      <div className="fixed top-0 left-0 w-full h-1 bg-gray-200 z-50">
-        {/* <div
-          className="h-full bg-gradient-to-r from-yellow-400 to-orange-500 transition-all duration-300"
-          style={{ width: `${(scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100}%` }}
-        /> */}
-      </div>
-
+    
       {/* Navbar */}
       <nav
         className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${
@@ -445,27 +439,27 @@ const [modalImage, setModalImage] = useState<string | null>(null)
         <div className="flex items-center space-x-4 pt-4">
           <a href="mailto:neeraj.tewari7@gmail.com" title="Email">
             <Button variant="outline" size="icon">
-              <Mail className="w-5 h-5" />
+              <FaEnvelope className="w-5 h-5" />
             </Button>
           </a>
           <a href="https://www.instagram.com/ntcinematographer" target="_blank" title="Instagram">
             <Button variant="outline" size="icon">
-              <InstagramIcon className="w-5 h-5" />
+              <FaInstagram className="w-5 h-5" />
             </Button>
           </a>
           <a href="https://www.facebook.com/share/1FCdh8aeEe/" target="_blank" title="Facebook">
             <Button variant="outline" size="icon">
-              <FacebookIcon className="w-5 h-5" />
+              <FaFacebookF className="w-5 h-5" />
             </Button>
           </a>
           <a href="https://linkedin.com/in/neeraj-tiwari-4b050610" target="_blank" title="LinkedIn">
             <Button variant="outline" size="icon">
-              <LinkedinIcon className="w-5 h-5" />
+              <FaLinkedinIn className="w-5 h-5" />
             </Button>
           </a>
         <a href="https://www.imdb.com/user/ur77279362/" target="_blank" title="IMDb" rel="noopener noreferrer">
   <Button variant="outline" size="icon">
-    <svg viewBox="0 0 64 32" className="w-10 h-5" xmlns="http://www.w3.org/2000/svg">
+    {/* <svg viewBox="0 0 64 32" className="w-10 h-5" xmlns="http://www.w3.org/2000/svg">
       <rect width="64" height="32" rx="4" ry="4" fill="#f5c518" />
       <text
         x="50%"
@@ -478,7 +472,8 @@ const [modalImage, setModalImage] = useState<string | null>(null)
       >
         IMDb
       </text>
-    </svg>
+    </svg> */}
+    <FaImdb className="w-5 h-5" />
   </Button>
 </a>
 

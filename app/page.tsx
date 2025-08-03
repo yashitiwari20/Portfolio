@@ -332,7 +332,7 @@ const [modalImage, setModalImage] = useState<string | null>(null)
     </div>
 
    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-            {["im1.jpeg", "im2.jpeg", "im3.jpeg", "im4.jpeg", "im5.jpeg", "im6.jpeg","im7.jpeg","im8.jpeg","im9.jpeg"].map((filename, index) => (
+            {["im1.jpeg", "im2.jpeg", "im3.jpeg", "im10.jpeg", "im5.jpeg", "im6.jpeg","im7.jpeg","im8.jpeg","im9.jpeg"].map((filename, index) => (
                <div key={index} className="group relative overflow-hidden rounded-xl h-64">
                 <img
                   src={`/images/${filename}`}

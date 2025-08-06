@@ -80,7 +80,7 @@ const [modalImage, setModalImage] = useState<string | null>(null)
     },
     {
       icon: <Film className="w-8 h-8" />,
-      title: "Direction of Photography",
+      title: "Director of Photography",
       description: "Complete DOP services for feature films, web series, and high-end commercial productions.",
       features: ["Lighting Design", "Camera Operation", "Visual Storytelling", "Team Management"],
     },

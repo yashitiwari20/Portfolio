@@ -428,7 +428,7 @@ const [modalImage, setModalImage] = useState<string | null>(null)
         </div>
         <div className="flex items-start space-x-4">
           <Phone className="w-6 h-6 text-yellow-500 mt-1" />
-          <span className="text-gray-700 text-lg font-medium">+91 98765 43210</span>
+          <span className="text-gray-700 text-lg font-medium">+91 98330 34942</span>
         </div>
         <div className="flex items-start space-x-4">
           <MapPin className="w-6 h-6 text-yellow-500 mt-1" />
@@ -493,7 +493,7 @@ const [modalImage, setModalImage] = useState<string | null>(null)
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h3 className="text-2xl font-bold mb-4">Neeraj Tiwari</h3>
           <p className="text-gray-400 mb-6">Director of Photography & Visual Storyteller</p>
-          <p className="text-gray-500">© 2024 Neeraj Tiwari. All rights reserved.</p>
+          <p className="text-gray-500">© 2025 Neeraj Tiwari. All rights reserved.</p>
         </div>
       </footer>
 

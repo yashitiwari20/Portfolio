@@ -131,7 +131,7 @@ const [modalImage, setModalImage] = useState<string | null>(null)
                 scrollY > 50 ? "text-gray-900" : "text-white"
               }`}
             >
-              Neeraj Tiwari
+              Neeraj Tiwarii
             </h1>
 
             {/* Desktop Menu */}
@@ -393,6 +393,8 @@ const [modalImage, setModalImage] = useState<string | null>(null)
                   "Cricket World Cup - South Africa",
                   "Asia Cup - Bangladesh",
                   "US Elections Coverage",
+                  "Australian broadcast ABC",
+                  "Al Jazeera",
                 ].map((event, index) => (
                   <div key={index} className="flex items-center space-x-4">
                     <div className="w-3 h-3 bg-yellow-400 rounded-full" />

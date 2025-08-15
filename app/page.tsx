@@ -248,7 +248,7 @@ const [modalImage, setModalImage] = useState<string | null>(null)
             <div>
               <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">About Me</h2>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                I'm <strong>Neeraj Tiwari</strong>, a Director of Photography with over two decades of experience in
+                I'm <strong>Neeraj Tiwarii</strong>, a Director of Photography with over two decades of experience in
                 visual storytelling. My journey has taken me from the sets of critically acclaimed Indian films to
                 international sporting events like the Olympics and Cricket World Cup.
               </p>
@@ -270,7 +270,7 @@ const [modalImage, setModalImage] = useState<string | null>(null)
             <div className="relative">
               <img
                 src="/images/im1.jpeg"
-                alt="Neeraj Tiwari"
+                alt="Neeraj Tiwarii"
                 className="rounded-2xl shadow-2xl w-full"
               />
               <div className="absolute -bottom-6 -right-6 bg-yellow-400 text-black p-6 rounded-xl shadow-lg">
@@ -493,9 +493,9 @@ const [modalImage, setModalImage] = useState<string | null>(null)
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h3 className="text-2xl font-bold mb-4">Neeraj Tiwari</h3>
+          <h3 className="text-2xl font-bold mb-4">Neeraj Tiwarii</h3>
           <p className="text-gray-400 mb-6">Director of Photography & Visual Storyteller</p>
-          <p className="text-gray-500">© 2025 Neeraj Tiwari. All rights reserved.</p>
+          <p className="text-gray-500">© 2025 Neeraj Tiwarii. All rights reserved.</p>
         </div>
       </footer>
 
